@@ -123,25 +123,14 @@ do
 		settextstyle(2,0,5);
 		for(int i=500;i>-100;i--)
 		{
-			setcolor(15);
+		
 			outtextxy(300,i,"Credits");
 			line(300,i+15,350,i+15);
 			line(300,i+17,350,i+17);
 			outtextxy(280,i+22,"Programmers");
 			line(280,i+37,366,i+37);
-			outtextxy(260,i+42,"Fahim Imaduddin Dalvi");
-			outtextxy(260,i+54,"  Nitin John James");
-			outtextxy(200,i+70,"This Program was Made Using Turbo C++");
-			outtextxy(260,i+82,"All Rights Reserved 2008");
-			delay(10);
-			setcolor(0);
-			outtextxy(300,i,"Credits");
-			line(300,i+15,350,i+15);
-			line(300,i+17,350,i+17);
-			outtextxy(280,i+22,"Programmers");
-			line(280,i+37,366,i+37);
-			outtextxy(260,i+42,"Fahim Imaduddin Dalvi");
-			outtextxy(260,i+54,"  Nitin John James");
+			outtextxy(260,i+42,"Vihaan Pingalkar AKA crabby605\n irl teacher, ppl on hc slack and stackoverflow");
+			
 			outtextxy(200,i+70,"This Program was Made Using Turbo C++");
 			outtextxy(260,i+82,"All Rights Reserved 2008");
 
